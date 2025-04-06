@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>danhttg2.com</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #00ffff;
+    }
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 25px;
+      background-color: #00bcd4;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+    .code-box {
+      background-color: #1e1e1e;
+      border: 1px solid #444;
+      padding: 15px;
+      margin-top: 30px;
+      border-radius: 8px;
+      font-family: monospace;
+      word-wrap: break-word;
+    }
+    .copy-btn {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 14px;
+      border: none;
+      background-color: #4caf50;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to danhttg2.com</h1>
+
+  <a href="https://www.mediafire.com/file/btrqxxybnscc5cl/Login_V2.665_VNG.apk/file" class="btn">Tải Login V2.665 VNG</a><br>
+  <a href="https://www.mediafire.com/file/e24by90bfv27at1/V2.665+Fluxus+VNG+Login.apk/file" class="btn">Tải Fluxus V2.665 VNG</a>
+
+  <div class="code-box" id="code">
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhangJunZ84/twvz/refs/heads/main/arisecrossover.lua"))()
+  </div>
+  <button class="copy-btn" onclick="copyCode()">Sao chép đoạn mã</button>
+
+  <script>
+    function copyCode() {
+      const code = document.getElementById("code").innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert("Đã sao chép!");
+      });
+    }
+  </script>
+</body>
+</html>
