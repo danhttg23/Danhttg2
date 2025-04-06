@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>danhttg2.com</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: #00ffff;
+    }
+    .btn {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 25px;
+      background-color: #00bcd4;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+    .code-box {
+      background-color: #1e1e1e;
+      border: 1px solid #444;
+      padding: 15px;
+      margin-top: 30px;
+      border-radius: 8px;
+      font-family: monospace;
+      word-wrap: break-word;
+    }
+    .copy-btn {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 14px;
+      border: none;
+      background-color: #4caf50;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to danhttg2.com</h1>
+
+  <a href="https://www.mediafire.com/file/adskt37y0eavglg/Phong+Roblox+Login+VNG+V2.665.apk/file?dkey=a5ykjfmq1tz&r=1137" class="btn">Tải Phong Roblox Login VNG V2.665</a><br>
+  <a href="https://www.mediafire.com/file/l2qc01uxpbc0wng/Delta+X+VNG+V2.665+Antiband+%E2%80%94+Phong+Roblox.apk/file?dkey=kggz7jz3vyb&r=235" class="btn">Tải Delta X VNG Antiband V2.665</a>
+
+  <div class="code-box" id="code">
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZhangJunZ84/twvz/refs/heads/main/arisecrossover.lua"))()
+  </div>
+  <button class="copy-btn" onclick="copyCode()">Sao chép đoạn mã</button>
+
+  <script>
+    function copyCode() {
+      const code = document.getElementById("code").innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert("Đã sao chép!");
+      });
+    }
+  </script>
+</body>
+</html>
